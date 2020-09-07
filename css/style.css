@@ -627,6 +627,7 @@ td {
 
   .image-1, .image-2, .image-3 {
     width: 85%;
+    height: auto;
 
 
   }
@@ -641,7 +642,7 @@ td {
 
   .image-2 {
     position: relative;
-    top: 60%;
+    top: 30%;
     left: 10%;
 
   }
@@ -657,10 +658,11 @@ td {
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    margin-top: 5%;
     margin-bottom: 15px;
-    width: 80%;
+    width: 90%;
     position: relative;
-    left: 10%;
+    left: 8%;
   }
 
   .container2 p {
@@ -682,7 +684,7 @@ td {
   }
 
   .description1 {
-    margin-top: 7%;
+    margin-top: 20%;
     margin-right: auto;
     margin-left: auto;
 
@@ -772,8 +774,12 @@ td {
 
   /* Contacts Section */
 
+  .contacts {
+    width: 95%
+  }
+
   .location, .number, .email {
-    width: 85%;
+    width: 90%;
     margin-bottom: 30px;
   }
 
@@ -833,6 +839,7 @@ td {
   /* Icons Section */
 
   .icons-copyright {
+    width: 95%;
     padding-top: 30%;
     padding-bottom: 15%;
     text-align: center;
