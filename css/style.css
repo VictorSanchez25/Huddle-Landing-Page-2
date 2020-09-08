@@ -80,7 +80,7 @@
 .header {
   font-family: 'Poppins' , sans-serif;
   font-size: 2.7rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 4rem;
   padding-right: 50px;
   margin-bottom: 20px;
@@ -101,10 +101,10 @@
 /* Buttons */
 
 .btn-top {
-  color: 	black;
+  color: 	#00252e;
   font-size: 1rem;
-  font-weight: 400;
-  background-color: 	#fff;
+  font-weight: 600;
+  background-color: #fff;
   width: 15%;
   height: 40px;
   border: none;
@@ -157,6 +157,7 @@
 }
 
 .grow-together, .flowing, .users {
+    height: auto;
     border-style: none;
     border-radius: 20px;
     border-width: thin;
@@ -164,7 +165,7 @@
     display: flex;
     flex-flow: row nowrap;
     margin-bottom: 50px;
-    height: 60vh;
+
 }
 
 /* Images */
@@ -187,19 +188,19 @@
 .image-1 {
   position: relative;
   right: 15%;
-  top: 1vh;
+  top: 20%;
 }
 
 .image-2 {
   position: relative;
   left: 20%;
-  top: 1vh;
+  top: 15%;
 }
 
 .image-3 {
   position: relative;
   right: 15%;
-  top: 1vh;
+  top: 20%;
 }
 /* Copy */
 
@@ -493,6 +494,7 @@ td {
 
 .images {
   position: static;
+
 }
   .illustration {
     margin-left: auto;
@@ -602,7 +604,7 @@ td {
       display: flex;
       flex-flow: column-reverse;
       width: 85%;
-      height: 60vh;
+      height: auto;
       text-align: center;
   }
 
@@ -614,7 +616,7 @@ td {
     display: flex;
     flex-flow: column;
     width: 85%;
-    height: 60vh;
+    height: auto;
   }
 
   /* Images */
