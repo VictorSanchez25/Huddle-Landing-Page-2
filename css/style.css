@@ -84,7 +84,7 @@
   line-height: 4rem;
   padding-right: 50px;
   margin-bottom: 20px;
-  width: 80%;
+  width: 90%;
 }
 
 .sentence {
@@ -175,26 +175,31 @@
 }
 
 .image-1, .image-2, .image-3 {
-  width: 90%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-2 {
+  max-width: 80%;
+  height: auto;
 }
 
 .image-1 {
   position: relative;
-  right: 10%;
-  top: 5%;
+  right: 15%;
+  top: 1vh;
 }
 
 .image-2 {
   position: relative;
   left: 20%;
-  top: 2%;
+  top: 1vh;
 }
 
 .image-3 {
   position: relative;
-  right: 10%;
-  top: 1%;
+  right: 15%;
+  top: 1vh;
 }
 /* Copy */
 
@@ -238,12 +243,12 @@
   background-color: white;
   position: relative;
   top: 70px;
-  left: 18%;
+  left: 10%;
   text-align: center;
   display: flex;
   flex-flow: column;
-  height: 260px;
-  width: 750px;
+  height: 40vh;
+  width: 80%;
   border-style: none;
   border-radius: 20px;
   border-width: thin;
@@ -616,7 +621,7 @@ td {
   .image1, .image2, .image3 {
     padding: 0;
     width: 90%;
-    height: 30%;
+    height: 20vh;
   }
 
   .image3 {
@@ -626,7 +631,7 @@ td {
    }
 
   .image-1, .image-2, .image-3 {
-    width: 85%;
+    width: 55vw;
     height: auto;
 
 
@@ -643,7 +648,7 @@ td {
   .image-2 {
     position: relative;
     top: 30%;
-    left: 12%;
+    left: 15vw;
 
   }
 
@@ -658,7 +663,7 @@ td {
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 15px;
     width: 90%;
     position: relative;
@@ -684,13 +689,13 @@ td {
   }
 
   .description1 {
-    margin-top: 20%;
+    margin-top: 15%;
     margin-right: auto;
     margin-left: auto;
 
   }
   .description2 {
-    margin-top: 35%;;
+    margin-top: 20%;;
   }
   .description3 {
     margin-top: 7%;
@@ -707,7 +712,7 @@ td {
     flex-flow: column;
 
     width: 95vw;
-    height: 22vh;
+    height: 21vh;
 
     position: relative;
     right: 0;
@@ -722,7 +727,7 @@ td {
   }
 
   .description-cta {
-    margin-top: 10%;
+    margin-top: 5vh;
     font-family: 'Poppins' , sans-serif;
     font-size: 1.2rem;
     font-weight: 550;
